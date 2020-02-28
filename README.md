@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.dyne.org">
+  <a href="https://www.tipipigri.com">
     <img alt="GTL" src="https://via.placeholder.com/150.png?text=LOGO" width="150" />
   </a>
 </p>
@@ -10,8 +10,8 @@
 </h1>
 
 <p align="center">
-  <a href="https://travis-ci.com/DECODEproject/GTL">
-    <img src="https://travis-ci.com/DECODEproject/GTL.svg?branch=master" alt="Build Status">
+  <a href="https://travis-ci.com/tipipigri/GTL">
+    <img src="https://travis-ci.com/tipipigri/GTL.svg?branch=master" alt="Build Status">
   </a>
   <a href="https://tipipigri.com">
     <img src="https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%9D%A4%20by-Tipi%20Pigri-green.svg" alt="Tipi Pigri">
@@ -98,15 +98,11 @@ docker run --rm -it GTL
 ***
 ## 😍 Acknowledgements
 
-Copyright © 2019 by [Dyne.org](https://www.dyne.org) foundation, Amsterdam
+Tipi Pigri © 2020
 
 Designed, written and maintained by Puria Nafisi Azizi.
 
 Special thanks to Mr. W. White for his special contributions.
-
-<img src="https://zenroom.dyne.org/img/ec_logo.png" width="150" alt="Project funded by the European Commission">
-
-This project is receiving funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement nr. 732546 (DECODE).
 
 
 ***
@@ -114,13 +110,10 @@ This project is receiving funding from the European Union’s Horizon 2020 resea
 
 https://www.somelink.io/
 
-https://dyne.org/
 
 
 ***
 ## 👤 Contributing
-
-Please first take a look at the [Dyne.org - Contributor License Agreement](CONTRIBUTING.md) then
 
 1.  🔀 [FORK IT](../../fork)
 2.  Create your feature branch `git checkout -b feature/branch`
