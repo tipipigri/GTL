@@ -1,0 +1,25 @@
+os: linux
+dist: bionic
+language: python
+python:
+  - 3.7
+
+stages:
+  - lint
+  - test
+
+jobs:
+  include:
+    - stage: lint
+      install:
+        - pip install pre-commit
+        - pre-commit install-hooks
+      script:
+        - pre-commit run --all-files
+
+    - stage: test
+      install:
+        - pip install poetry
+        - poetry install -v
+      script:
+        - pytest tests/
