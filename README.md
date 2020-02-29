@@ -10,8 +10,8 @@
 </h1>
 
 <p align="center">
-  <a href="https://travis-ci.com/tipipigri/GTL">
-    <img src="https://travis-ci.com/tipipigri/GTL.svg?branch=master" alt="Build Status">
+  <a href="https://travis-ci.org/tipipigri/GTL">
+    <img src="https://travis-ci.org/tipipigri/GTL.svg?branch=master" alt="Build Status">
   </a>
   <a href="https://tipipigri.com">
     <img src="https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%9D%A4%20by-Tipi%20Pigri-green.svg" alt="Tipi Pigri">
