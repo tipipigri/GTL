@@ -13,9 +13,9 @@ on:
 jobs:
   ci:
     strategy:
-      fail-fast: false
+      fail-fast: true
       matrix:
-        python-version: [3.6, 3.7, 3.8]
+        python-version: [3.7, 3.8]
         poetry-version: [1.0, 1.0.10]
         os: [ubuntu-latest, macos-latest, windows-latest]
     runs-on: ${{ matrix.os }}
@@ -28,5 +28,7 @@ jobs:
         uses: abatilo/actions-poetry@v2.0.0
         with:
           poetry-version: ${{ matrix.poetry-version }}
+      - name: Poetry install
+        run: poetry install
       - name: Test the GTL
         run: poetry run task test
